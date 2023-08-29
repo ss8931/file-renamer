@@ -1,0 +1,28 @@
+Rewrite the original filename
+- if it has a number in it, then keep it but try to keep to two digits.
+- Then, Add a very short summary, 1-4 words.
+- Summary should be delimited by hyphen. 
+- The summary should be brief, non-redundant. 
+- Remove the word book, slides, etc which may describe the format, rather than content.
+- Remove any subject-specific information, like year, date, course name, location, unless it is important to the content.
+
+Format: "[DD-]{Summary}.{original extension}"
+
+input: 1_Study_of_Symmetry_through_formalism_of_group_theory.pdf
+output: 01-symmetry.pdf
+input: 01-intro-slides.pdf
+output: 01-intro.pdf
+input: computer_vision_I_Syllabus_Fall_2023-24.pdf
+output: syllabus.pdf
+input: sliding-window-maximum-test-0.json
+output: 00-test-sliding-window.json
+input: worksheet05NN.pdf
+output: 05-neural-network.pdf
+input: llm -one-hundered.txt
+output: 100-large-language-model.txt
+input: Describing_General006.pdf
+output: 06-describing.pdf
+input: defining-exercise.pdf
+output: defining.pdf
+input: MLA-eighth-edition.pdf
+output: 8th-edition-MLA.pdf
