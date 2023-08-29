@@ -1,0 +1,10 @@
+{
+	"dotnet.defaultSolution": "file-renamer.sln",
+	"[csharp]": {
+		"editor.maxTokenizationLineLength": 2500,
+		"editor.inlineSuggest.suppressSuggestions": false,
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true
+	}
+}
