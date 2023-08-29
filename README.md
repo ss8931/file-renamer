@@ -1,5 +1,7 @@
 # File Renamer
 
+MIT. See LICENSE.
+
 An LLM-based file renamer.
 
 ## Motivation
@@ -12,11 +14,25 @@ The problem I run into is I often download files which have long names. I want t
 
 LLM makes this possible. 
 
+
+## Set up
+
+Prereq. Dotnet.
+
+Create an .env file anywhere.
+
+Apply for a key, if you don't have one already [Google Makersuite](https://developers.generativeai.google/products/makersuite)
+
+```
+API_KEY=YOUR_KEY
+PROMPT_FILE=REAL_PATH_TO_PROMPT_FILE
+```
+
 ## Usage
 
 ### Training
 
-Train the LLM a new mapping.
+Train the model a new mapping.
 
 ```bash
 dotnet run -- add original_name new_name
