@@ -8,8 +8,6 @@ Rewrite the original filename
 
 Format: "[DD-]{Summary}.{original extension}"
 
-input: 1_Study_of_Symmetry_through_formalism_of_group_theory.pdf
-output: 01-symmetry.pdf
 input: 01-intro-slides.pdf
 output: 01-intro.pdf
 input: computer_vision_I_Syllabus_Fall_2023-24.pdf
@@ -26,3 +24,5 @@ input: defining-exercise.pdf
 output: defining.pdf
 input: MLA-eighth-edition.pdf
 output: 8th-edition-MLA.pdf
+input: 1_Physics_Exploration_of_Spatial_Invariance_via_Group_Theory.pdf
+output: 01-physics-exploration.pdf
