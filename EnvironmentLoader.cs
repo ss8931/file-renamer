@@ -1,7 +1,9 @@
 public class EnvironmentLoader
 {
 
-	private static FileInfo filePath = new FileInfo("/Users/srikarsundaram/bin/.file-renamer/.env");
+	// home dir + "bin/...
+	private static string homeDir = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+	private static FileInfo filePath = new FileInfo(Path.Combine(homeDir, "bin/.file-renamer/.env"));
 
 	public static void Load()
 	{
