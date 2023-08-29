@@ -3,7 +3,14 @@ namespace Models;
 public class Options
 {
 	public string BaseUrl => "https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText";
-	public bool DryRun { get; set; } = false;
+
+	private bool dryRun = false;
+
+	public bool DryRun
+	{
+		get => !Train && dryRun; // if we're training, we don't want to dry run
+		set => dryRun = value;
+	}
 	public bool Train { get; set; } = false;
 	public bool Verbose { get; set; } = false;
 
