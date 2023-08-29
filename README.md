@@ -27,6 +27,14 @@ Apply for a key, if you don't have one already [Google Makersuite](https://devel
 API_KEY=YOUR_KEY
 PROMPT_FILE=REAL_PATH_TO_PROMPT_FILE
 ```
+`PROMPT_FILE` already exists, see prompts/prompt-00. Of course, you can create your own.
+
+If you'd like to add it to your path to run it from anywhere, just symlink it to your home bin or usr bin.
+
+```bash
+ln -s /path/to/repo/bin/Release/net7.0/file-renamer file-renamer ~/bin/file-renamer
+```
+
 
 ## Usage
 
